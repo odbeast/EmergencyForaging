@@ -1,0 +1,17 @@
+Emergency Foraging 0.2.3 beta
+Compilation: successful; warnings treated as errors (0 warnings).
+Verification: XML parsed; all mod types loaded; Harmony method signature matched; vanilla harvest inheritance verified.
+In-game testing: NOT performed.
+Game Assembly-CSharp internal assembly version: 1.4.8509.26899
+Compiler: Mono C# compiler 6.8.0.105; CLR v4 library.
+Target framework in source project: .NET Framework 4.7.2.
+
+SHA-256 build references (not distributed):
+0Harmony.dll d04ec5b2590dd1bbb57f0f11dc417b1a5bebbb36b1f97006d35f2d87c3a2a69f
+Assembly-CSharp.dll 2c6ed637e9066ecb890c9638b73cf4194456d756129b0fd924b153adfc2eb03a
+UnityEngine.CoreModule.dll 49a2fafc2ddbe59953200d0c72d7170cda9369b18b15022de16f6b9efaa786af
+UnityEngine.IMGUIModule.dll 3a5d66d6fe65bd37efffb9efef85e3f6f3b4eb8eca2cafdae0e4f5d12310fd72
+
+Output SHA-256: f00b0969eccc175ca3820158427377463edc0b7f1962f841fd4779743c670c1f
+VGP XML definitions inspected; game maturity getter inspected.
+Live Plant test cannot run outside Unity (shader initialization requires Unity runtime).

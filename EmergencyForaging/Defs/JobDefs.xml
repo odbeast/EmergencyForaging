@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs><JobDef><defName>EF_Forage</defName><driverClass>EmergencyForaging.JobDriver_Forage</driverClass><reportString>harvesting emergency food.</reportString><checkOverrideOnExpire>true</checkOverrideOnExpire></JobDef></Defs>

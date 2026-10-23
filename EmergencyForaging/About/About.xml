@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Emergency Foraging</name>
+  <author>odbeast</author>
+  <packageId>odbeast.emergencyforaging</packageId>
+  <supportedVersions><li>1.4</li></supportedVersions>
+  <modDependencies><li><packageId>brrainz.harmony</packageId><displayName>Harmony</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl></li></modDependencies>
+  <loadAfter><li>brrainz.harmony</li></loadAfter>
+  <description>Version 0.2.3 beta. All in-game messages are in English. Compiled against the supplied RimWorld 1.4 assemblies. Very hungry colonists harvest fully grown edible plants when ordinary food jobs are unavailable. Configurable radius and hunger threshold; persistent alert if no suitable plants are found. Requires Harmony. In-game testing is still required.</description>
+</ModMetaData>

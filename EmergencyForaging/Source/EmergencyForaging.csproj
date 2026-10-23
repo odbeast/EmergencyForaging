@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework><LangVersion>7.3</LangVersion>
+    <AssemblyName>EmergencyForaging</AssemblyName><AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>../Assemblies/</OutputPath><GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp"><HintPath>$(RimWorldManaged)/Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(RimWorldManaged)/UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(RimWorldManaged)/UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(HarmonyDll)</HintPath><Private>false</Private></Reference>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="All" />
+  </ItemGroup>
+  <Target Name="ValidateReferences" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(RimWorldManaged)/Assembly-CSharp.dll')" Text="Pass -p:RimWorldManaged=.../RimWorldWin64_Data/Managed" />
+    <Error Condition="!Exists('$(HarmonyDll)')" Text="Pass -p:HarmonyDll=.../0Harmony.dll (Harmony for RimWorld 1.4)" />
+  </Target>
+</Project>
